@@ -1,7 +1,6 @@
 .logo{
  color: var(--blanco);
  margin-left: 2rem;
- 
 }
 .logo__nombre{
     font-weight: 500;
@@ -10,8 +9,6 @@
 .logo__bold{
    font-weight: 900;
 }
-
-
 
 .menu{
     height: 8.5rem;
@@ -22,17 +19,14 @@
     align-items: center;
     border-bottom: 1px solid var(--secundario);
     box-shadow: 5px 0 10px rgba(0, 0, 0, 20);
-    
-    
 }   
 
 .menu_items{
     display: flex;
     list-style: none;
     margin-right: 2rem;
-    }
+}
   
-
 .menu_items li a{
     padding: 1.5rem;
     text-decoration: none;
@@ -40,13 +34,10 @@
     display: block;
     border-radius: 3px;
     margin: 0 5px;
-    
-    
+    transition: .5s;
 }
 .menu_items li a:hover, li:active{
-    background-color: rgba(0, 0, 0, .4);
-    transition: .5s;
-    
+     background-color: rgba(0, 0, 0, .4); 
 }
 .btn_menu{
     margin-right: 3rem;
@@ -54,15 +45,13 @@
     color: var(--blanco);
     cursor: pointer;
     display: none;
-    
 }
 
 ul.show{
     top: 65px;
 }
 
-
-@media screen and (max-width: 854px) {
+@media  (max-width: 854px) {
     .menu{
         height: 65px;
     }
@@ -104,9 +93,9 @@ ul.show{
     .logo__nombre{
         font-size: 3.2rem;
     }
-    
 }
-@media screen and (max-width: 854px) and (orientation: landscape) {
+
+@media  (max-width: 854px) and (orientation: landscape) {
     .menu_items li a{
         margin: 5px 0 0 0;
     }
@@ -114,15 +103,13 @@ ul.show{
         overflow: scroll;
         height: calc(100 - 65px);
     }
-    
 }
 
 .barra2{
     height: 6rem;
-    background-color: #6AD39120;
+    background-color: #6ad39017;
     position: relative;
-    border-bottom: 2px solid #8da079;
-    
+    border-bottom: 2px solid   #8da079  ;
 }
 .buscador2{
     display: flex;
@@ -130,8 +117,6 @@ ul.show{
     position: absolute;
     left: 30rem;
     top: 1rem;
-    
-    
 }
 
 .input2{
@@ -140,19 +125,18 @@ ul.show{
     align-items: center;
 }
 
-    
 .input__text2{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0 0 5px;
     display: block;
-    width: 600px;
+    width: 65rem;
     margin: auto;
-    padding: 10px;
+    height: 4.2rem;
+    /* padding: 10px; */
+    padding: 0 60px 0 20px;
     font-size: 18px;
-    outline: 0;
-    border-style:groove;
+    outline: none;
+    border: none;
     border-color: #d4d4d4;
-    
-   
 }
 
 @media screen and (max-width: 768px ) {
@@ -170,37 +154,22 @@ ul.show{
         align-items: center;
     }
 }
-    /**margin-left: 1rem;
-    height: 3.5rem;
-    
-    border-style:groove;
-    border-width: .2rem;
-    border-radius: 8px 0 0 8px;
-    
-    background-color: var(--blanco);
-    outline: none;
-    padding: 0 18px;    
-}**/
-
-  .input__boton2 {
-    height: 4.3rem;
+.input__boton2 {
+    height: 4.1rem;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     font-size: 1.3rem;
     outline: none;
     background-color: var(--tercero);
     color: var(--blanco);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
     outline: none;
-
-
 }
 
 .input__boton2:hover{
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, 0.856);
     color: var(--blanco);
-
 }
 @media screen and (max-width: 768px) {
     .buscador2{

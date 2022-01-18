@@ -27,13 +27,6 @@ body {
     background-color: #6AD39120;
 }
 
-/** Globales **/
-
-.contenedor {
-    max-width: 100rem;
-    width: 90%;
-    margin: 0 auto;
-}
 
 /** Utilidades **/
 .no-margin {
@@ -55,11 +48,8 @@ body {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 .contenido{
-    
-    
     width: 100%;
     height: 100%;
     display: flex;
@@ -70,10 +60,11 @@ body {
 .contenido__texto{
     width: 800px;
     padding: 1rem 2rem;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.836);
     box-shadow: 1px 1px  rgba(0, 0, 0, .4);
     display: grid;
     grid-template-columns: 2fr 1fr;
+    border-radius: 0.5rem;
     /**margin-left: 30rem;
     margin-right: 30rem;**/
 }
@@ -98,9 +89,7 @@ body {
     line-height: 2;
 }
 
-
 .input{
-    
     display: flex;
     font-size: 1.5rem;
 }
@@ -126,8 +115,8 @@ body {
 }
 
 .input__boton:hover{
-    background-color: rgba(0, 0, 0, .4);
-    color: var(--primario);
+    background-color: rgba(0, 0, 0, 0.76);
+    color: var(--blanco);
 }
 
 @media screen and (max-width: 768px ) {
@@ -137,7 +126,6 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 1.2rem;
-        
     }
     .parrafo{
         line-height: 1.5;
@@ -145,8 +133,6 @@ body {
     }
     .input{
         padding: 1rem;
-        
-        
     }
     .contenido__a{
         font-size: 3rem;
@@ -167,7 +153,7 @@ body {
     }
 }
 @media screen and (max-width: 1080px) {
-        .contenido__texto{
+    .contenido__texto{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -203,7 +189,6 @@ body {
     align-items: center;
 }
 .leermas{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +196,6 @@ body {
     color: var(--blanco);
     margin-left: 18rem;
     margin-right: 18rem;
-
 }
 
 @media screen and (max-width: 768px ) {
@@ -230,8 +214,6 @@ body {
     }
 }
 
-
-
 .footer{
     height: 8rem;
     background-color:rgba(139, 183, 104, 0.6);
@@ -243,18 +225,14 @@ body {
     flex-direction: row;
     margin-left: 2rem;
     justify-content: space-between;
-
-    
 }
 
 .logofooter{
     color: var(--blanco);
     margin-left: 6rem;
     margin-top: 2rem;
-    
 }
 .footertext{
-    
     margin-right: 20rem;
     margin-top: 2rem;
 
@@ -266,7 +244,7 @@ body {
 }
 
 .containerdos{
-    background-color: #95A698;
+    background-color: #202020;
     margin: 0;
     height: 4rem;
     align-items: center;
@@ -276,10 +254,9 @@ body {
 .footer__texto{
     margin: 0;
     font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--negro);
-    
+    color: var(--blanco);
 }
+
 @media screen and (max-width: 768px) {
     .footertext{
     margin-right: 14rem;
@@ -291,7 +268,6 @@ body {
         }
     .logofooter{
         margin-left: 3rem;
-        
     }  
     .logo__bold2{
         font-size: 2rem;
@@ -334,7 +310,6 @@ body {
     line-height: 28px !important;
     color: #000000 !important;
     text-align: left !important;
-
 }
 .imagencontacto1{
     background-image: url(../img/dictionary-gcd78938d6_1920.jpg);
@@ -350,7 +325,6 @@ body {
     background-color: rgba( 0,0,0, 40%);
     width: 100%;
     height: 100%;
-
 }
 .imagencontacto2{
     background-image: url(../img/book-ge031c97de_1920.jpg);
@@ -366,7 +340,6 @@ body {
     background-color: rgba( 0,0,0, 40%);
     width: 100%;
     height: 100%;
-
 }
 .imagencontacto3{
     background-image: url(../img//Plaza\ Botero.jfif);
@@ -382,6 +355,12 @@ body {
     background-color: rgba( 0,0,0, 40%);
     width: 100%;
     height: 100%;
-
 }
+
+
+
+
+
+
+
 

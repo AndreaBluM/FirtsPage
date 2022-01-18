@@ -1,30 +1,107 @@
+/* color: #676a6c;
+color: #8BB768;*/
+a{
+    color: rgb(9, 107, 9);
+}
+h3{
+    font-size: 2.2rem;
+}
+body{
+    background:#eee;
+  }
 
 .contenidor{
     display: flex;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.entrada-forum{
+    margin-top: 1.5rem;
+    max-height: 28rem;
+    width: 79%;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    box-shadow: -1px 0px 20px -6px rgba(199, 199, 199, 0.726);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.tituloforum{
+    margin: 4rem 0 0.3rem 0;
+}
+.cont-titulo{
+    display: flex;
+    flex-direction: row;
     align-items: center;
+  }
+.cont-newpost{
+    margin: 2rem 0 0.8rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.input3{
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background-color:  #6AD39120;
+    border-radius: 5px;
+  }
+.input__text3{
+    width: 32rem;
+    margin: 0 auto;
+    background-color: var(--blanco);
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    padding: 0 10px 0 10px;
+    border-radius: 6px 0 0 6px;
+  }
+  .apost,
+.span span {
+    margin: 0 0 0 6rem;
+}
 
-}
-.cuadros1{
-    margin-top: 5rem;
-    max-height: 30rem;
-    width: 75%;
-    background-color: var(--blanco);
-    box-shadow: -1px 0px 20px -6px rgba(199,199,199,1);
-    display: grid;
-}
-.cuadros{
+.cuadros,
+.contenido-replic{
+    padding: 1.5rem;
     margin-top: 2rem;
-    height: 25rem;
-    width: 75%;
-    background-color: var(--blanco);
+    width: 79%;
+    background-color: #f9f9f9;
     box-shadow: -1px 0px 20px -6px rgba(199,199,199,1);
     display: grid;
-    grid-template-rows: 1.2fr 3fr 0.2fr;
+    border-radius: 5px;
 }
+.contenidoprinci{
+    padding: 1.5rem;
+    margin-top: 2rem;
+    width: 79%;
+    background-color: #f9f9f9;
+    box-shadow: -1px 0px 20px -6px rgba(199,199,199,1);
+    
+    border-radius: 5px;
+}
+.orden-repli{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: solid 1px rgb(170, 170, 170);
+}
+.titulo-entrada{
+    font-size: 2rem;
+}
+
+ .pMain {
+     margin-top: 1.5rem;
+    grid-column: 1 / 2;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    
+}
+
 .cuadro1{
-    grid-row: 1 / 2;
-    background-color: var(--blanco);
+    /* grid-row: 1 / 2; */
+    background-color: #f9f9f9;
     border-bottom: solid 1px rgb(170, 170, 170);
     padding: 0.5rem;
     display: flex;
@@ -34,55 +111,31 @@
 @media screen and (max-width: 768px ) {
     .cuadros{
         width: 95%;
-        height: 40rem;
+        /* height: 40rem; */
     }
     .cuadro1{
         width: 95%;
     }
-    .cuadros1{
+    .entrada-forum{
         width: 95%;
         max-height: 50rem;
     }
 }
-.input3{
-    text-align: end;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-  }
-  .input__text3{
-    width: 300px;
-      border: groove;
-      border-color: var(tercero);
-      background-color: var(--blanco);
-      outline: none;
-      height: 3.5rem;
-      padding: 0 25px;
-      border-radius: 6px 0 0 6px;
-  } 
-  @media screen and (max-width: 520px ) {
+@media screen and (max-width: 520px ) {
     .input__text3{
       width: 200px;
     }
-      
-  } 
+} 
+
 .cuadro2{
-    
-    background-color: var(--blanco);
-    
-     padding: 1.2rem;
-
+    background-color: #f9f9f9;
+    padding: 1.2rem;
+    height: 100%;
 }
 
-.tutulowel1{
-    margin: .5rem;
-}
-.hhhh{
-    
-}
 .lineh{
     line-height: 2rem;
     font-size: 1.5rem;
-
 }
 .ubicacion{
     margin-left: 1.5rem;
@@ -90,5 +143,10 @@
 }
 .personame{
     margin-left: 2rem;
-
+    grid-row: 1 / 2;
 }
+
+
+
+
+
