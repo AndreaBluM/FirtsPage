@@ -1,6 +1,7 @@
 .logo{
  color: var(--blanco);
  margin-left: 2rem;
+ display: flex;
 }
 .logo__nombre{
     font-weight: 500;

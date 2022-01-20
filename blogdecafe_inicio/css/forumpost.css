@@ -3,7 +3,7 @@ color: #8BB768;*/
 a{
     color: rgb(9, 107, 9);
 }
-h3{
+.contenido-replic h3{
     font-size: 2.2rem;
 }
 body{
@@ -16,11 +16,7 @@ body{
     width: 90%;
     margin: 0 auto;
 }
-.princicontenedor{
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-}
+
 .entrada-forum{
     margin-top: 1.5rem;
     max-height: 28rem;
@@ -78,19 +74,18 @@ body{
     display: grid;
     border-radius: 5px;
 }
-.contenidoprinci{
+.contenido-repli2{
     padding: 1.5rem;
     margin-top: 2rem;
     width: 79%;
     background-color: #f9f9f9;
     box-shadow: -1px 0px 20px -6px rgba(199,199,199,1);
-    
     border-radius: 5px;
 }
 .orden-repli{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    border-bottom: solid 1px rgb(170, 170, 170);
+    /* border-bottom: solid 1px rgb(170, 170, 170); */
 }
 .titulo-entrada{
     font-size: 2rem;
@@ -101,7 +96,12 @@ body{
     grid-column: 1 / 2;
     font-size: 1.5rem;
     line-height: 1.8rem;
-    
+}
+.cont-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cuadro1{
