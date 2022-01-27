@@ -151,7 +151,17 @@ body{
     grid-row: 1 / 2;
 }
 
+.texarea{
+    height: 13rem;
+    width: 64rem ;
+}
 
+.form-replic{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    gap: 1rem;
+}
 
 
 
