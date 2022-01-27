@@ -102,6 +102,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-style: oblique;
 }
 
 .cuadro1{
@@ -125,11 +126,38 @@ body{
         width: 95%;
         max-height: 50rem;
     }
+    .contenido-repli2{
+        width: 95%;
+    }
+    
 }
-@media screen and (max-width: 520px ) {
+@media screen and (max-width: 720px ) {
     .input__text3{
       width: 200px;
     }
+    .cont-newpost{
+        margin: 1rem 0 1rem 0;
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column-reverse; 
+    }
+    .span span {
+        margin: 0;
+        font-size: 1.3rem;
+    }
+    .apost{
+        margin: 1rem;
+    }
+    .logoforo{
+        display: none;
+    }
+    .tituloforum{
+        margin: 1rem;
+    }
+    .texarea{
+        width: 5rem;
+    }
+    
 } 
 
 .cuadro2{
@@ -153,7 +181,7 @@ body{
 
 .texarea{
     height: 13rem;
-    width: 64rem ;
+    width: 90%;
 }
 
 .form-replic{

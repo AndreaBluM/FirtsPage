@@ -10,6 +10,12 @@
 .logo__bold{
    font-weight: 900;
 }
+@media screen and (max-width:768px ) {
+    .logoprinci{
+        display: none;
+}
+}
+
 
 .menu{
     height: 8.5rem;

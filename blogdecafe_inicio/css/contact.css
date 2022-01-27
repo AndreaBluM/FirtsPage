@@ -9,7 +9,7 @@ body{
 }
 .contenedur__conten{
     margin-top: 5rem ;
-    height: 700px;
+    height: 800px;
     width: 800px;
     background-color:  #6AD39120;
     background-color: #f9f9f9;
@@ -21,21 +21,8 @@ body{
     border: 1px solid #f1f1f1;
     box-shadow: -1px 0px 20px -6px rgba(199, 199, 199, 0.726);
 }
-.contenedur__conten2{
-    margin-top: 5rem ;
-    height: 800px;
-    width: 800px;
-    background-color:  #6AD39120;
-    background-color: var(--blanco);
-    border-radius: 0.5rem;
-    border: 1px;
-    border-style:groove;
-    border-color: #8da079;
-    display: flex;
-    box-shadow: 5px 5px gray ;
-    justify-content: center;
-    align-items:center;
-}
+
+
 .row{
     width: 60%;
     
@@ -52,6 +39,7 @@ body{
     margin-bottom: 5.5rem;
 }
 .contact-input{
+    padding: 0.8rem;
     height: 3.5rem;
     border: 1px solid #ced4da;
     border-radius: 0.5rem;
@@ -65,14 +53,7 @@ body{
     border: 1px solid #ced4da;
     border-radius: 0.5rem;
 }
-.contact-boton{
-    color: #fff;
-    margin-top: 1rem;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-    height: 3.2rem;
-    border-radius: 0.5rem;
-}
+
 .text-sugerencia{
     line-height: 2.5rem;
     margin-bottom: 2rem;
