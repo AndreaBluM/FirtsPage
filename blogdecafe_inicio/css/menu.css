@@ -11,7 +11,7 @@
    font-weight: 900;
 }
 
-@media screen and (max-width:1124px ) {
+@media screen and (max-width:1277px ) {
     .logoprinci{
         display: none;
 }
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--secundario);
+    border-bottom: 1px solid var(--blanco);
     box-shadow: 5px 0 10px rgba(0, 0, 0, 20);
 }   
 
@@ -35,17 +35,21 @@
 }
   
 .menu_items li a{
-    padding: 1.5rem;
+    padding: 1.5rem; 
     text-decoration: none;
-    color: var(--blanco);
+    color: #C30F17;
     display: block;
     border-radius: 3px;
     margin: 0 5px;
     transition: .5s;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
-.menu_items li a:hover, li:active{
+ .menu_items li a:hover{
      background-color: rgba(0, 0, 0, .4); 
-}
+     transition: .5s;
+     color: var(--blanco);
+} 
 .btn_menu{
     margin-right: 3rem;
     font-size: 30px;
@@ -58,7 +62,7 @@ ul.show{
     top: 65px;
 }
 
-@media  (max-width: 1124px) {
+@media  (max-width: 1277px) {
     .menu{
         height: 65px;
     }
@@ -70,30 +74,29 @@ ul.show{
         position: fixed;
         width: 100%;
         background-color: rgba(0, 0, 0, .6);
-        top: -100vh;
+         top: -100vh; 
         text-align: center;
         transition: all .4s;
         flex-direction: column;
         z-index: 1;
+        padding: 0;
         
     }
     .menu_items li {
-        
         line-height: 30px;
         position: relative;
     }
     .menu_items li a{
         background-color: none;
-        margin-right: 1.6rem;
+        align-items: center;
         font-size: 1.8rem;
         color: var(--blanco);
         font-weight: bold;
     }
-    .menu_items li :hover, li:active{
+     .menu_items li a:hover{
         background-color: rgba(0, 0, 0, .9);
-        transition: .5s;
-        color: var(--primario);
-    }
+        
+    } 
     .logo__bold{
         font-size: 3.2rem;
     }
@@ -103,20 +106,19 @@ ul.show{
 }
 
 @media  (max-width: 854px) and (orientation: landscape) {
-    .menu_items li a{
-        margin: 5px 0 0 0;
+     .menu_items li a{
+        margin: 0 0 0 0;
     }
     .menu_items{
         overflow: scroll;
         height: calc(100 - 65px);
-    }
+    } 
 }
 
 .barra2{
     height: 6rem;
-    background-color: #6ad39017;
     position: relative;
-    border-bottom: 2px solid   #8da079  ;
+    border-bottom: 2px solid var(--blanco);
 }
 .buscador2{
     display: flex;
@@ -168,7 +170,7 @@ ul.show{
     padding: 0 10px 0 10px;
     font-size: 1.3rem;
     outline: none;
-    background-color: var(--tercero);
+    background-color: var(--primario);
     color: var(--blanco);
     border-radius: 0 5px 5px 0;
     outline: none;

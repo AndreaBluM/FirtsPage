@@ -9,8 +9,8 @@ body{
 }
 .contenedur__conten{
     margin-top: 5rem ;
-    height: 800px;
-    width: 800px;
+    height: 100%;
+    width: 71%;
     background-color:  #6AD39120;
     background-color: #f9f9f9;
     border-radius: 0.5rem;
@@ -45,7 +45,7 @@ body{
     border-radius: 0.5rem;
 }
 .label-contact{
-    color: var(--tercero);
+    color: var(--primario);
     font-weight: bold;
     
 }
@@ -69,4 +69,10 @@ body{
     .contenedur__conten{
         width: 95%;
     }
+}
+.form-control{
+    padding: 0.8rem;
+    height: 3.9rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
 }

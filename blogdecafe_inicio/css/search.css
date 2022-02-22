@@ -1,5 +1,5 @@
 a{
-    color: rgb(9, 107, 9);
+    color: var(--primario);
 }
 body{
     background:#eee;
@@ -22,7 +22,7 @@ body{
 .sidebar-cuadro{
     height: 250px;
     width: 300px;
-    background-color: #6AD39120;
+    background-color: var(--fondopaco);
     padding: 1.5rem;
     border-radius: 0.5rem;
     display: flex;
@@ -65,7 +65,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6AD39120;
+    background-color: var(--fondopaco);
     padding: 1rem;
 }
 .entrada-search{
@@ -107,7 +107,7 @@ body{
     font-size: 1.5rem;
     font-weight: bold;
     font-style: oblique;
-    color: #8BB768;
+    color: var(--primario);
 }
 .l-suggest{
     text-align: end;
